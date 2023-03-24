@@ -30,7 +30,7 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: see
-      run: ll
+      run: ls -l
     - name: Test with Maven
       run: mvn test
 
